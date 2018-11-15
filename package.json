@@ -1,0 +1,25 @@
+{
+  "name": "gitssues",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "repository": "https://github.com/vamtha/gitssues.git",
+  "author": "Jonathan Vazquez <vamtha24@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.2"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1"
+  }
+}
